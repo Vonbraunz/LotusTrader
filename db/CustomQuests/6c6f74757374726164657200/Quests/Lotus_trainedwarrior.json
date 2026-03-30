@@ -1,0 +1,1509 @@
+﻿{
+    "98fbd04177d76b0d0d536b8a":  {
+                                     "QuestName":  "Trained warrior - combat skills",
+                                     "_id":  "98fbd04177d76b0d0d536b8a",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "20b011aa34cbe6cdebe734e6",
+                                                                                       "index":  0,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "AimDrills",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "d799c56be0cb21e7ab86baec",
+                                                                                       "index":  1,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "MagDrills",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "6411e0961a9bde11e49a4b71",
+                                                                                       "index":  2,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "RecoilControl",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "d2505aa959704dcd8d3f8815",
+                                                                                       "index":  3,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "StressResistance",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Level",
+                                                                                      "compareMethod":  "\u003e=",
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "ad8c301746c675a85f40eb7e",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "value":  15,
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  },
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "94624df52a9dbee1c7da56fb",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "1e798ff0b641ece07e84a614",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_trainedwarriorcombat description",
+                                     "failMessageText":  "Lotus_trainedwarriorcombat failMessageText",
+                                     "image":  "/files/quest/icon/lotus_trainedwarriorcombatskills.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_trainedwarriorcombat name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "56f237c4f4b2efee0b9a348e",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "17192",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "3dc49816d31195645ad032cb",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.02",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "ef84f005f18eabd36abe4176",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "997bec92a8fd433a3f66da08",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  10932
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "997bec92a8fd433a3f66da08",
+                                                                         "type":  "Item",
+                                                                         "value":  "10932",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "d89cb94c41e72177b9da249e",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "b04c9a937bc48f807888d226",
+                                                                                           "_tpl":  "5bffe7930db834001b734a39",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "b04c9a937bc48f807888d226",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "b37e4c4a360463cc03838006",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "6fe4bd45c807e8038dac4594",
+                                                                                           "_tpl":  "59d6272486f77466146386ff",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  3
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "6fe4bd45c807e8038dac4594",
+                                                                         "type":  "Item",
+                                                                         "value":  "3",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "6ec7822e75d94923459cffab",
+                                                                         "index":  5,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "194f749043d53aa0de46a3c6",
+                                                                                           "_tpl":  "5656d7c34bdc2d9d198b4587",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  180
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "194f749043d53aa0de46a3c6",
+                                                                         "type":  "Item",
+                                                                         "value":  "180",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "501149834011f60dab3e01bf",
+                                                                         "index":  8,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "61c277a6d3fbb08daa85913c",
+                                                                                           "_tpl":  "5a0ec13bfcdbcb00165aa685",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f2e995abd6ef18e5129e1af5",
+                                                                                           "_tpl":  "59d64ec286f774171d1e0a42",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_gas_block"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "31ff51935695da58a627f88f",
+                                                                                           "_tpl":  "5f633f68f5750b524b45f112",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "efea4debbb93edcac046725c",
+                                                                                           "_tpl":  "5b30ac585acfc433000eb79c",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_pistol_grip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "65e94f1bef531dac827232ef",
+                                                                                           "_tpl":  "59d6507c86f7741b846413a2",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_reciever"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "55c7b7b7c70d8a59c10a9ccb",
+                                                                                           "_tpl":  "628a7b23b0f75035732dd565",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_sight_rear",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "ca1028963e3d31fc7c1837a4",
+                                                                                           "_tpl":  "5b0e794b5acfc47a877359b2",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "77123ec27917eb4617e1d1c5",
+                                                                                           "_tpl":  "59d6272486f77466146386ff",
+                                                                                           "parentId":  "61c277a6d3fbb08daa85913c",
+                                                                                           "slotId":  "mod_magazine"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f35d5fc2ccecdcd317394c8e",
+                                                                                           "_tpl":  "5c9a07572e221644f31c4b32",
+                                                                                           "parentId":  "f2e995abd6ef18e5129e1af5",
+                                                                                           "slotId":  "mod_handguard"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "2cd1cd24d612e1942e483149",
+                                                                                           "_tpl":  "57cffb66245977632f391a99",
+                                                                                           "parentId":  "f35d5fc2ccecdcd317394c8e",
+                                                                                           "slotId":  "mod_foregrip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "71f8243c9c224e883824fe02",
+                                                                                           "_tpl":  "5b7be47f5acfc400170e2dd2",
+                                                                                           "parentId":  "f35d5fc2ccecdcd317394c8e",
+                                                                                           "slotId":  "mod_mount_000"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "12597c2b2d4e55a81a57c8c1",
+                                                                                           "_tpl":  "5b7be47f5acfc400170e2dd2",
+                                                                                           "parentId":  "f35d5fc2ccecdcd317394c8e",
+                                                                                           "slotId":  "mod_mount_001"
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "61c277a6d3fbb08daa85913c",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_trainedwarriorcombat startedMessageText",
+                                     "successMessageText":  "Lotus_trainedwarriorcombat successMessageText",
+                                     "templateId":  "98fbd04177d76b0d0d536b8a",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Skill"
+                                 },
+    "318bb0a28ba7609030a9bdcd":  {
+                                     "QuestName":  "Trained warrior - first aid",
+                                     "_id":  "318bb0a28ba7609030a9bdcd",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "7ffae8c55390a3b93ba4fe68",
+                                                                                       "index":  0,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Health",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "3cc8908496ecf5c3f085d4d3",
+                                                                                       "index":  1,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Surgery",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "d704089a1b32fcfb41c6eb5e",
+                                                                                       "index":  2,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Vitality",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "faf3c5cfa0c05875fa0c5c45",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "98fbd04177d76b0d0d536b8a",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_trainedwarriorfirstaid description",
+                                     "failMessageText":  "Lotus_trainedwarriorfirstaid failMessageText",
+                                     "image":  "/files/quest/icon/lotus_trainedwarriorfirstaid.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_trainedwarriorfirstaid name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "014e6f21b5bf5864fc3b0e7e",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "14778",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "6fefa0efd8e926e6e4737c89",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.02",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "ee46034b1f8ea78fcbe857d8",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "52a2fc29eb433622d34cf6ad",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  13024
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "52a2fc29eb433622d34cf6ad",
+                                                                         "type":  "Item",
+                                                                         "value":  "13024",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "46d4a1b9b3b1efaa0fed630b",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "3678e8ceddca759bf7da735c",
+                                                                                           "_tpl":  "590c657e86f77412b013051d",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  2
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "3678e8ceddca759bf7da735c",
+                                                                         "type":  "Item",
+                                                                         "value":  "2",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "f7ee20c7ca75597066cc2c73",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "ab3889baf70b6a67ba7d5c7f",
+                                                                                           "_tpl":  "5e8488fa988a8701445df1e4",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  4
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "ab3889baf70b6a67ba7d5c7f",
+                                                                         "type":  "Item",
+                                                                         "value":  "4",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_trainedwarriorfirstaid startedMessageText",
+                                     "successMessageText":  "Lotus_trainedwarriorfirstaid successMessageText",
+                                     "templateId":  "318bb0a28ba7609030a9bdcd",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Skill"
+                                 },
+    "98e2616451cb8c97b6c4eacb":  {
+                                     "QuestName":  "Trained warrior - scavenger",
+                                     "_id":  "98e2616451cb8c97b6c4eacb",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "c9f4d88d5c3073a9d84bbc9e",
+                                                                                       "index":  0,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Perception",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "11e4b07b07dda6b7b55f2021",
+                                                                                       "index":  1,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Attention",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "748708fc72393d75a6e802a6",
+                                                                                       "index":  2,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Strength",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "310b9e4e3125cc689d8f9523",
+                                                                                       "index":  3,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Endurance",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Level",
+                                                                                      "compareMethod":  "\u003e=",
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "328f7d750d9c655a2eb3724a",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "value":  20,
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  },
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "31a04cba707482d43f9c0683",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "318bb0a28ba7609030a9bdcd",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_trainedwarriorscavenger description",
+                                     "failMessageText":  "Lotus_trainedwarriorscavenger failMessageText",
+                                     "image":  "/files/quest/icon/lotus_trainedwarriorscavenger.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_trainedwarriorscavenger name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "915e677c83624a15f9eee8f7",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "17192",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "c770827d6ca80e740ec2040f",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.02",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "5381053577b534112b6a7733",
+                                                                         "index":  1,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "379fc527dc4ffc22bb97d20e",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  12949
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "379fc527dc4ffc22bb97d20e",
+                                                                         "type":  "Item",
+                                                                         "value":  "12949",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "56aa68b04e6d0ea89abf8e29",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "515012a72c86c92c166b4cae",
+                                                                                           "_tpl":  "590c2e1186f77425357b6124",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  2
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "515012a72c86c92c166b4cae",
+                                                                         "type":  "Item",
+                                                                         "value":  "2",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_trainedwarriorscavenger startedMessageText",
+                                     "successMessageText":  "Lotus_trainedwarriorscavenger successMessageText",
+                                     "templateId":  "98e2616451cb8c97b6c4eacb",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Skill"
+                                 },
+    "133a43490ea2b59b4e914b31":  {
+                                     "QuestName":  "Trained warrior - firearms expert",
+                                     "_id":  "133a43490ea2b59b4e914b31",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "6758040efc558f66619bcb0e",
+                                                                                       "index":  0,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Assault",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "2375a6e0ef335d4e32411ddd",
+                                                                                       "index":  1,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "DMR",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "6dc8b5045f913fa2c60b1c12",
+                                                                                       "index":  2,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "LMG",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "9744acb83d3c1e69e85c7eb4",
+                                                                                       "index":  3,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Pistol",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "127be507178a217e65717a7d",
+                                                                                       "index":  4,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Shotgun",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "2f5ac1bdb23bd5b1a02eac61",
+                                                                                       "index":  5,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "Sniper",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "a0929d14bcae56b7e6f49c69",
+                                                                                       "index":  6,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "SMG",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "317046935733cf5f8b9a95d3",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "98e2616451cb8c97b6c4eacb",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_trainedwarriorfirearms description",
+                                     "failMessageText":  "Lotus_trainedwarriorfirearms failMessageText",
+                                     "image":  "/files/quest/icon/lotus_trainedwarriorfirearmexpert.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_trainedwarriorfirearms name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "49def2be8341f3abbebcbaa7",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "17192",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "f1f7bb0ca340c9fa19d4c5b8",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.02",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "cd6ea7bd23c8609e3bd13c20",
+                                                                         "index":  1,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "cdaf400a3e10c03c40d37ebb",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  15762
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "cdaf400a3e10c03c40d37ebb",
+                                                                         "type":  "Item",
+                                                                         "value":  "15762",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "af36c8d78ee53d7eeef23b3f",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "f290f640be6938c43a1c0caa",
+                                                                                           "_tpl":  "5696686a4bdc2da3298b456a",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  192
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "f290f640be6938c43a1c0caa",
+                                                                         "type":  "Item",
+                                                                         "value":  "192",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "ec6f713cccbea1f92c6a8b63",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "d85fa967dcb52c713e60c79b",
+                                                                                           "_tpl":  "569668774bdc2da2298b4568",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  237
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "d85fa967dcb52c713e60c79b",
+                                                                         "type":  "Item",
+                                                                         "value":  "237",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "1a8b05104a200904eb783ce9",
+                                                                         "index":  5,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "7d08147a45e1fbbabfd925df",
+                                                                                           "_tpl":  "5ac66d2e5acfc43b321d4b53",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "da9bf37546d96dbdacb84436",
+                                                                                           "_tpl":  "59c6633186f7740cf0493bb9",
+                                                                                           "parentId":  "7d08147a45e1fbbabfd925df",
+                                                                                           "slotId":  "mod_gas_block"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f8061606525eb82b9c0c598d",
+                                                                                           "_tpl":  "5649ab884bdc2ded0b8b457f",
+                                                                                           "parentId":  "7d08147a45e1fbbabfd925df",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "375bb1d25a009806133f6c33",
+                                                                                           "_tpl":  "5cf50850d7f00c056e24104c",
+                                                                                           "parentId":  "7d08147a45e1fbbabfd925df",
+                                                                                           "slotId":  "mod_pistol_grip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "0c92da6077645ec1d934f735",
+                                                                                           "_tpl":  "5d2c772c48f0355d95672c25",
+                                                                                           "parentId":  "7d08147a45e1fbbabfd925df",
+                                                                                           "slotId":  "mod_reciever"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "bc8128de53e6de8d2c4ac510",
+                                                                                           "_tpl":  "5beec8b20db834001961942a",
+                                                                                           "parentId":  "7d08147a45e1fbbabfd925df",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "48e1343c25c617318f9d4985",
+                                                                                           "_tpl":  "6272874a6c47bd74f92e2087",
+                                                                                           "parentId":  "7d08147a45e1fbbabfd925df",
+                                                                                           "slotId":  "mod_magazine"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "07816b35ac61132a9bfa0257",
+                                                                                           "_tpl":  "5efaf417aeb21837e749c7f2",
+                                                                                           "parentId":  "da9bf37546d96dbdacb84436",
+                                                                                           "slotId":  "mod_handguard"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "0e41557c4532a52e65763ada",
+                                                                                           "_tpl":  "5c1cdd302e221602b3137250",
+                                                                                           "parentId":  "0c92da6077645ec1d934f735",
+                                                                                           "slotId":  "mod_scope"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "0b3ca241278fc1f9eade88a1",
+                                                                                           "_tpl":  "5c793fde2e221601da358614",
+                                                                                           "parentId":  "bc8128de53e6de8d2c4ac510",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "11ae41952e8937330a8ad64e",
+                                                                                           "_tpl":  "588226d124597767ad33f787",
+                                                                                           "parentId":  "07816b35ac61132a9bfa0257",
+                                                                                           "slotId":  "mod_foregrip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "e2ef04f612582fbb4f287d9f",
+                                                                                           "_tpl":  "5c1cdd512e22161b267d91ae",
+                                                                                           "parentId":  "0e41557c4532a52e65763ada",
+                                                                                           "slotId":  "mod_scope"
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "7d08147a45e1fbbabfd925df",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "4384b9fae91dbf962448483c",
+                                                                         "index":  6,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "1936de6f6bf7fbdcabb9f769",
+                                                                                           "_tpl":  "618428466ef05c2ce828f218",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f17f5d77d1716dc33cf09ff8",
+                                                                                           "_tpl":  "55802f5d4bdc2dac148b458f",
+                                                                                           "parentId":  "1936de6f6bf7fbdcabb9f769",
+                                                                                           "slotId":  "mod_pistol_grip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "51c04cecbaa653a84a6bf8fa",
+                                                                                           "_tpl":  "55802d5f4bdc2dac148b458e",
+                                                                                           "parentId":  "1936de6f6bf7fbdcabb9f769",
+                                                                                           "slotId":  "mod_magazine"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "8319244da1404ef0ba503d01",
+                                                                                           "_tpl":  "618426d96c780c1e710c9b9f",
+                                                                                           "parentId":  "1936de6f6bf7fbdcabb9f769",
+                                                                                           "slotId":  "mod_reciever"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "061dd69fb625ed9af455de54",
+                                                                                           "_tpl":  "61825d06d92c473c770215de",
+                                                                                           "parentId":  "1936de6f6bf7fbdcabb9f769",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "84c7e32edfdc1c7464448f06",
+                                                                                           "_tpl":  "6181688c6c780c1e710c9b04",
+                                                                                           "parentId":  "1936de6f6bf7fbdcabb9f769",
+                                                                                           "slotId":  "mod_charge"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "20a3d6b1ea135155eae2db1a",
+                                                                                           "_tpl":  "59f9d81586f7744c7506ee62",
+                                                                                           "parentId":  "8319244da1404ef0ba503d01",
+                                                                                           "slotId":  "mod_scope",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "0dba2a56855fd3b4bbdfb0db",
+                                                                                           "_tpl":  "6183fc15d3a39d50044c13e9",
+                                                                                           "parentId":  "8319244da1404ef0ba503d01",
+                                                                                           "slotId":  "mod_barrel"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "fd7a2604b948b9619584c7bf",
+                                                                                           "_tpl":  "61817865d3a39d50044c13a4",
+                                                                                           "parentId":  "8319244da1404ef0ba503d01",
+                                                                                           "slotId":  "mod_sight_rear",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "d71a9001284f74590e73c255",
+                                                                                           "_tpl":  "61816df1d3a39d50044c139e",
+                                                                                           "parentId":  "8319244da1404ef0ba503d01",
+                                                                                           "slotId":  "mod_mount_000"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "0ddf2d2411eb90f8aeb4512b",
+                                                                                           "_tpl":  "61816dfa6ef05c2ce828f1ad",
+                                                                                           "parentId":  "8319244da1404ef0ba503d01",
+                                                                                           "slotId":  "mod_mount_001"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "c0bd0a97c830e9e399195a8e",
+                                                                                           "_tpl":  "618167528004cc50514c34f9",
+                                                                                           "parentId":  "061dd69fb625ed9af455de54",
+                                                                                           "slotId":  "mod_stock_001"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "bbed36325c9297f43b451326",
+                                                                                           "_tpl":  "61825d24d3a39d50044c13af",
+                                                                                           "parentId":  "061dd69fb625ed9af455de54",
+                                                                                           "slotId":  "mod_stock_002"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "e1be7f4950adbc02592de34d",
+                                                                                           "_tpl":  "618407a850224f204c1da549",
+                                                                                           "parentId":  "0dba2a56855fd3b4bbdfb0db",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "b1f7d92a31665c4a8095a0b8",
+                                                                                           "_tpl":  "61816fcad92c473c770215cc",
+                                                                                           "parentId":  "0dba2a56855fd3b4bbdfb0db",
+                                                                                           "slotId":  "mod_sight_front",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "d02623d91fb6a81beb45f661",
+                                                                                           "_tpl":  "59fc48e086f77463b1118392",
+                                                                                           "parentId":  "d71a9001284f74590e73c255",
+                                                                                           "slotId":  "mod_foregrip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "6483ad54c09029288b400c3a",
+                                                                                           "_tpl":  "618167616ef05c2ce828f1a8",
+                                                                                           "parentId":  "c0bd0a97c830e9e399195a8e",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "1936de6f6bf7fbdcabb9f769",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_trainedwarriorfirearm startedMessageText",
+                                     "successMessageText":  "Lotus_trainedwarriorfirearm successMessageText",
+                                     "templateId":  "9526b9a634a2b157d1b5ed30",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Skill"
+                                 },
+    "3d026a4bda61aefdc68fc41d":  {
+                                     "QuestName":  "Trained warrior - sneaky bastard",
+                                     "_id":  "3d026a4bda61aefdc68fc41d",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "Skill",
+                                                                                       "compareMethod":  "\u003e=",
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "db10b8f0f9588da512df75c3",
+                                                                                       "index":  0,
+                                                                                       "parentId":  "",
+                                                                                       "target":  "CovertMovement",
+                                                                                       "value":  5,
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "9a0cf7557e2bf55c5ca68316",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "133a43490ea2b59b4e914b31",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_trainedwarriorsneak description",
+                                     "failMessageText":  "Lotus_trainedwarriorsneak failMessageText",
+                                     "image":  "/files/quest/icon/lotus_trainedwarriorsneakybastard.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_trainedwarriorsneak name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "9ebaf30d98a5e02309f52f79",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "19820",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "86e4923a2d3a27a297cf9d6f",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.05",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "40fb259e90550e311b5dc543",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "c00432b077661ca82b5842e4",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  13024
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "c00432b077661ca82b5842e4",
+                                                                         "type":  "Item",
+                                                                         "value":  "13024",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "958abd49c9a49825b35c0287",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "a68bd9125257aee112ba1726",
+                                                                                           "_tpl":  "5e2af47786f7746d404f3aaa",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  5
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "a68bd9125257aee112ba1726",
+                                                                         "type":  "Item",
+                                                                         "value":  "5",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "eb2580f159e3a53b286bdad3",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "ee58337631a7ed2ec5e7ea36",
+                                                                                           "_tpl":  "62a0a098de7ac8199358053b",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  2
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "ee58337631a7ed2ec5e7ea36",
+                                                                         "type":  "Item",
+                                                                         "value":  "2",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "0166eb36d7b6b7aafa11602f",
+                                                                         "index":  5,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "3b49049eac3f7e8d51535a0d",
+                                                                                           "_tpl":  "628e4e576d783146b124c64d"
+                                                                                       }
+                                                                                   ],
+                                                                         "loyaltyLevel":  2,
+                                                                         "target":  "3b49049eac3f7e8d51535a0d",
+                                                                         "traderId":  "6c6f74757374726164657200",
+                                                                         "type":  "AssortmentUnlock",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "675ec4cacacd6093d2652f7c",
+                                                                         "index":  6,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "910626241bf91e09b9dd1019",
+                                                                                           "_tpl":  "628e4e576d783146b124c64d"
+                                                                                       }
+                                                                                   ],
+                                                                         "loyaltyLevel":  3,
+                                                                         "target":  "910626241bf91e09b9dd1019",
+                                                                         "traderId":  "6c6f74757374726164657200",
+                                                                         "type":  "AssortmentUnlock",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_trainedwarriorsneak startedMessageText",
+                                     "successMessageText":  "Lotus_trainedwarriorsneak successMessageText",
+                                     "templateId":  "3d026a4bda61aefdc68fc41d",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Skill"
+                                 }
+}

@@ -1,0 +1,286 @@
+﻿{
+    "61e73ac5c2757a98de814423":  {
+                                     "QuestName":  "New contacts",
+                                     "_id":  "61e73ac5c2757a98de814423",
+                                     "canShowNotificationsInGame":  true,
+                                     "changeQuestMessageText":  "",
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "CounterCreator",
+                                                                                       "counter":  {
+                                                                                                       "id":  "6ffd3ef5ee657cb3bb4ea950",
+                                                                                                       "conditions":  [
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Kills",
+                                                                                                                              "compareMethod":  "\u003e=",
+                                                                                                                              "id":  "95de3cfe60b87dd669b1bdd4",
+                                                                                                                              "target":  "Savage",
+                                                                                                                              "value":  "1",
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Location",
+                                                                                                                              "id":  "52d9eb3353274b8a08e434a1",
+                                                                                                                              "target":  [
+                                                                                                                                             "bigmap"
+                                                                                                                                         ],
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                   },
+                                                                                       "doNotResetIfCounterCompleted":  false,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "71f4eeb2917d65b794fbc13f",
+                                                                                       "index":  0,
+                                                                                       "oneSessionOnly":  false,
+                                                                                       "parentId":  "",
+                                                                                       "type":  "Elimination",
+                                                                                       "value":  "5",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "CounterCreator",
+                                                                                       "counter":  {
+                                                                                                       "id":  "eeb843f5300b480a2e4a337e",
+                                                                                                       "conditions":  [
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Kills",
+                                                                                                                              "compareMethod":  "\u003e=",
+                                                                                                                              "id":  "95df38a8c34dd81b66fed1c4",
+                                                                                                                              "target":  "Savage",
+                                                                                                                              "value":  "1",
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Location",
+                                                                                                                              "id":  "4876e3e40cacfc6382561bcc",
+                                                                                                                              "target":  [
+                                                                                                                                             "Shoreline"
+                                                                                                                                         ],
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                   },
+                                                                                       "doNotResetIfCounterCompleted":  false,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "7dd69bba9cc3eb1e5ce5504e",
+                                                                                       "index":  1,
+                                                                                       "oneSessionOnly":  false,
+                                                                                       "parentId":  "",
+                                                                                       "type":  "Elimination",
+                                                                                       "value":  "5",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "CounterCreator",
+                                                                                       "counter":  {
+                                                                                                       "id":  "79b46d3422e76991bae69154",
+                                                                                                       "conditions":  [
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Kills",
+                                                                                                                              "compareMethod":  "\u003e=",
+                                                                                                                              "id":  "3d1eb74448bd1e13852d4ea0",
+                                                                                                                              "target":  "Savage",
+                                                                                                                              "value":  "1",
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Location",
+                                                                                                                              "id":  "58ba7f50b8a108521b2c8df6",
+                                                                                                                              "target":  [
+                                                                                                                                             "factory4_day",
+                                                                                                                                             "factory4_night"
+                                                                                                                                         ],
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                   },
+                                                                                       "doNotResetIfCounterCompleted":  false,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "931a70b24698e3b380229675",
+                                                                                       "index":  2,
+                                                                                       "oneSessionOnly":  false,
+                                                                                       "parentId":  "",
+                                                                                       "type":  "Elimination",
+                                                                                       "value":  "5",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "CounterCreator",
+                                                                                       "counter":  {
+                                                                                                       "id":  "a0db87bc62db30bcb6a0df3a",
+                                                                                                       "conditions":  [
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Kills",
+                                                                                                                              "compareMethod":  "\u003e=",
+                                                                                                                              "id":  "dd4b789078f5722c261ea7bd",
+                                                                                                                              "target":  "Savage",
+                                                                                                                              "value":  "1",
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Location",
+                                                                                                                              "id":  "45b8b9bd039d710608041e2b",
+                                                                                                                              "target":  [
+                                                                                                                                             "Interchange"
+                                                                                                                                         ],
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                   },
+                                                                                       "doNotResetIfCounterCompleted":  false,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "8872a414be4acec3a5102a48",
+                                                                                       "index":  3,
+                                                                                       "oneSessionOnly":  false,
+                                                                                       "parentId":  "",
+                                                                                       "type":  "Elimination",
+                                                                                       "value":  "5",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Level",
+                                                                                      "compareMethod":  "\u003e=",
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "887d1c71dfdb8cd0d6ca23f7",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "value":  10,
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_intro description",
+                                     "image":  "/files/quest/icon/lotus_newcontact.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_intro name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "71783ef251550e48d2b6dfec",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "11386",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "37756804a42fd14fc2fc4dd8",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.04",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "9aaa60558b5d5fc08b81b266",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "b007ff7210540873249045ad",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  26379
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "b007ff7210540873249045ad",
+                                                                         "type":  "Item",
+                                                                         "value":  "26379",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "b60a375aa92155d756130476",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "584e81c08663a153dc97702c",
+                                                                                           "_tpl":  "5aafbde786f774389d0cbc0f"
+                                                                                       }
+                                                                                   ],
+                                                                         "loyaltyLevel":  1,
+                                                                         "target":  "584e81c08663a153dc97702c",
+                                                                         "traderId":  "6c6f74757374726164657200",
+                                                                         "type":  "AssortmentUnlock",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_intro startedMessageText",
+                                     "successMessageText":  "Lotus_intro successMessageText",
+                                     "templateId":  "61e73ac5c2757a98de814423",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Elimination"
+                                 }
+}

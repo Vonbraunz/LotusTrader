@@ -1,0 +1,1475 @@
+﻿{
+    "33df810b9fec44d2c0cab27b":  {
+                                     "QuestName":  "Pokloneniye - part 1",
+                                     "_id":  "33df810b9fec44d2c0cab27b",
+                                     "canShowNotificationsInGame":  true,
+                                     "changeQuestMessageText":  "",
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "CounterCreator",
+                                                                                       "counter":  {
+                                                                                                       "id":  "106929dfb551283fd6098abc",
+                                                                                                       "conditions":  [
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Kills",
+                                                                                                                              "compareMethod":  "\u003e=",
+                                                                                                                              "id":  "c20dfe0eab5bd4159ffae69a",
+                                                                                                                              "savageRole":  [
+                                                                                                                                                 "sectantWarrior"
+                                                                                                                                             ],
+                                                                                                                              "target":  "Savage",
+                                                                                                                              "value":  "1",
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Location",
+                                                                                                                              "id":  "157332633aa85c3cafd1fb82",
+                                                                                                                              "target":  [
+                                                                                                                                             "Woods"
+                                                                                                                                         ],
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                   },
+                                                                                       "doNotResetIfCounterCompleted":  false,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "647b63bdb5a07729322f0e39",
+                                                                                       "index":  0,
+                                                                                       "oneSessionOnly":  false,
+                                                                                       "parentId":  "",
+                                                                                       "type":  "Elimination",
+                                                                                       "value":  "4",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "CounterCreator",
+                                                                                       "counter":  {
+                                                                                                       "id":  "fcea734f00505eae48d719c3",
+                                                                                                       "conditions":  [
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Kills",
+                                                                                                                              "compareMethod":  "\u003e=",
+                                                                                                                              "id":  "39866d80b6e7a57bd638ce1b",
+                                                                                                                              "savageRole":  [
+                                                                                                                                                 "sectantPriest"
+                                                                                                                                             ],
+                                                                                                                              "target":  "Savage",
+                                                                                                                              "value":  "1",
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          },
+                                                                                                                          {
+                                                                                                                              "conditionType":  "Location",
+                                                                                                                              "id":  "157332633aa85c3cafd1fb82",
+                                                                                                                              "target":  [
+                                                                                                                                             "Woods"
+                                                                                                                                         ],
+                                                                                                                              "globalQuestCounterId":  "",
+                                                                                                                              "dynamicLocale":  false
+                                                                                                                          }
+                                                                                                                      ]
+                                                                                                   },
+                                                                                       "doNotResetIfCounterCompleted":  false,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "a96e8de8f6cd59b81c212b81",
+                                                                                       "index":  0,
+                                                                                       "oneSessionOnly":  false,
+                                                                                       "parentId":  "",
+                                                                                       "type":  "Elimination",
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Level",
+                                                                                      "compareMethod":  "\u003e=",
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "c66a4859889cab7dcb36adcd",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "value":  25,
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  },
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "c3cc80e15611b07822e34136",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "3d026a4bda61aefdc68fc41d",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_Pokloneniye1 description",
+                                     "failMessageText":  "Lotus_Pokloneniye1 failMessageText",
+                                     "image":  "/files/quest/icon/lotus_pokloneniye1.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "5704e3c2d2720bac5b8b4567",
+                                     "name":  "Lotus_Pokloneniye1 name",
+                                     "note":  "",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "f88b8284eb2e9f55d964dec6",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "29930",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "f524938e5b3fe429aac52dd1",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.05",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "3257371c6e4dc11af940cb3d",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "08a6012f874f25f06f8c7ae6",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  44497
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "08a6012f874f25f06f8c7ae6",
+                                                                         "type":  "Item",
+                                                                         "value":  "44497",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "cf5514cff0985f7560c786f8",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "6bf6da4d6239e12ca6dbfc81",
+                                                                                           "_tpl":  "637b6251104668754b72f8f9",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  3
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "6bf6da4d6239e12ca6dbfc81",
+                                                                         "type":  "Item",
+                                                                         "value":  "3",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "448824859886f2798e4cad0f",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "a707d9dfca718fd82f2f5d36",
+                                                                                           "_tpl":  "5df8a42886f77412640e2e75",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "a707d9dfca718fd82f2f5d36",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "aeb9293376aeed1bb7702d98",
+                                                                         "index":  5,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "486553ac245dbf7588995e37",
+                                                                                           "_tpl":  "5fbcc1d9016cce60e8341ab3",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "9cccad7a0166e90d49021ae7",
+                                                                                           "_tpl":  "57c55efc2459772d2c6271e7",
+                                                                                           "parentId":  "486553ac245dbf7588995e37",
+                                                                                           "slotId":  "mod_pistol_grip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "6f0eaa9392277f171fb536a5",
+                                                                                           "_tpl":  "59c1383d86f774290a37e0ca",
+                                                                                           "parentId":  "486553ac245dbf7588995e37",
+                                                                                           "slotId":  "mod_magazine"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "4483c6ecc0c31d8081c97f8c",
+                                                                                           "_tpl":  "5fbcc3e4d6fa9c00c571bb58",
+                                                                                           "parentId":  "486553ac245dbf7588995e37",
+                                                                                           "slotId":  "mod_reciever"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "187196a7235a6670d37baa43",
+                                                                                           "_tpl":  "5c5db6ee2e221600113fba54",
+                                                                                           "parentId":  "486553ac245dbf7588995e37",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "5a5d1047bc24b0d152c551a8",
+                                                                                           "_tpl":  "5fbcc640016cce60e8341acc",
+                                                                                           "parentId":  "486553ac245dbf7588995e37",
+                                                                                           "slotId":  "mod_charge"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "6f3e21208905997b74a788e6",
+                                                                                           "_tpl":  "5c07dd120db834001c39092d",
+                                                                                           "parentId":  "4483c6ecc0c31d8081c97f8c",
+                                                                                           "slotId":  "mod_scope",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f7f56ac03b022bdfc8fa6a88",
+                                                                                           "_tpl":  "5fbbfacda56d053a3543f799",
+                                                                                           "parentId":  "4483c6ecc0c31d8081c97f8c",
+                                                                                           "slotId":  "mod_barrel"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "3a50d53c560d94b0d19f2829",
+                                                                                           "_tpl":  "5fbc227aa56d053a3543f79e",
+                                                                                           "parentId":  "4483c6ecc0c31d8081c97f8c",
+                                                                                           "slotId":  "mod_handguard"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "c69e5a20c821ebf191ee43e1",
+                                                                                           "_tpl":  "5dfa3d7ac41b2312ea33362a",
+                                                                                           "parentId":  "4483c6ecc0c31d8081c97f8c",
+                                                                                           "slotId":  "mod_sight_rear",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "bd415e9f8455168da2608e5b",
+                                                                                           "_tpl":  "5fbc22ccf24b94483f726483",
+                                                                                           "parentId":  "f7f56ac03b022bdfc8fa6a88",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "4e3b2a839814406b1a091476",
+                                                                                           "_tpl":  "5fbc210bf24b94483f726481",
+                                                                                           "parentId":  "f7f56ac03b022bdfc8fa6a88",
+                                                                                           "slotId":  "mod_gas_block"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "698aacb82e2c669e47de6957",
+                                                                                           "_tpl":  "5a9d6d00a2750c5c985b5305",
+                                                                                           "parentId":  "3a50d53c560d94b0d19f2829",
+                                                                                           "slotId":  "mod_mount_000"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "0d5cdc297f669ea1d6121bc3",
+                                                                                           "_tpl":  "5a9d6d00a2750c5c985b5305",
+                                                                                           "parentId":  "3a50d53c560d94b0d19f2829",
+                                                                                           "slotId":  "mod_mount_001"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "a0b0d67b702aa6f22ef8da84",
+                                                                                           "_tpl":  "5dfa3d950dee1b22f862eae0",
+                                                                                           "parentId":  "3a50d53c560d94b0d19f2829",
+                                                                                           "slotId":  "mod_sight_front",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "7680676d2fda4e5fb18b125f",
+                                                                                           "_tpl":  "5fbcbd10ab884124df0cd563",
+                                                                                           "parentId":  "bd415e9f8455168da2608e5b",
+                                                                                           "slotId":  "mod_muzzle_000"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "6c5e4b8e6ec2ac7654702fcd",
+                                                                                           "_tpl":  "5fbe760793164a5b6278efc8",
+                                                                                           "parentId":  "bd415e9f8455168da2608e5b",
+                                                                                           "slotId":  "mod_muzzle_001"
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "486553ac245dbf7588995e37",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_Pokloneniye1 startedMessageText",
+                                     "successMessageText":  "Lotus_Pokloneniye1 successMessageText",
+                                     "templateId":  "33df810b9fec44d2c0cab27b",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "Elimination"
+                                 },
+    "efb15ef749d8d8f0bc6cf476":  {
+                                     "QuestName":  "Pokloneniye - part 2",
+                                     "_id":  "efb15ef749d8d8f0bc6cf476",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "FindItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "f62c94204d18e2b62ed363db",
+                                                                                       "index":  0,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "6176a48d732a664031271438"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "fbfd52d93e2134a87f04e8b2",
+                                                                                       "index":  1,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "6176a48d732a664031271438"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "FindItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "dd66bd2147c86e63f687e516",
+                                                                                       "index":  0,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5bd06f5d86f77427101ad47c"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "59558b040dc7d99820ad8f9e",
+                                                                                       "index":  3,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5bd06f5d86f77427101ad47c"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "FindItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "65fb9bd959fba87caac0acff",
+                                                                                       "index":  4,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5bd0716d86f774171822ef4b"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "bbaa4acfd8d4002e7ec0018b",
+                                                                                       "index":  5,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5bd0716d86f774171822ef4b"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "FindItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "0478a03fec0dc4fd2e5096ba",
+                                                                                       "index":  6,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "6176a40f0b8c0312ac75a3d3"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "4c08202415bb3df7def4ba2a",
+                                                                                       "index":  7,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "6176a40f0b8c0312ac75a3d3"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "FindItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "64743555d927ca975c9d7973",
+                                                                                       "index":  8,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5e54f79686f7744022011103"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "af72ec0ad0b1903bb37343cd",
+                                                                                       "index":  9,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5e54f79686f7744022011103"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "FindItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "34049a518e3f4ec933a31102",
+                                                                                       "index":  10,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5fc64ea372b0dd78d51159dc"
+                                                                                                  ],
+                                                                                       "value":  "5",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "fdfd6b723e4974b8a0d6898a",
+                                                                                       "index":  11,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  true,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5fc64ea372b0dd78d51159dc"
+                                                                                                  ],
+                                                                                       "value":  "5",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "5f3b17d948447c08c879b869",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "33df810b9fec44d2c0cab27b",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_Pokloneniye2 description",
+                                     "failMessageText":  "Lotus_Pokloneniye2 failMessageText",
+                                     "image":  "/files/quest/icon/lotus_pokloneniye2.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_Pokloneniye2 name",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "6abaf709e6e3732791002433",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "17459",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "af26c8d6469be2108f46103d",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.03",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "cf1088493cde6728498cff3b",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "7d0db18a8a40599368d9c14a",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  21983
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "7d0db18a8a40599368d9c14a",
+                                                                         "type":  "Item",
+                                                                         "value":  "21983",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "797cc4464adcb6868d315e2d",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "9a123581609a5a6cdd4f3404",
+                                                                                           "_tpl":  "603409c80ca681766b6a0fb2",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  3
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "9a123581609a5a6cdd4f3404",
+                                                                         "type":  "Item",
+                                                                         "value":  "3",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "1fed074532dc931cf2debbd1",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "ee7bb907282608e4ad3805d3",
+                                                                                           "_tpl":  "5b40e1525acfc4771e1c6611",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "ee7bb907282608e4ad3805d3",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "cab1b85e8ebb372f5316e5cd",
+                                                                         "index":  5,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "c14ad46d897cc161b3b6461c",
+                                                                                           "_tpl":  "5d1b327086f7742525194449",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  2
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "c14ad46d897cc161b3b6461c",
+                                                                         "type":  "Item",
+                                                                         "value":  "2",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "57898b430d25c46479b5f76a",
+                                                                         "index":  6,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "6231b71c39e18a4ce927fbca",
+                                                                                           "_tpl":  "5fd4c474dd870108a754b241"
+                                                                                       }
+                                                                                   ],
+                                                                         "loyaltyLevel":  4,
+                                                                         "target":  "6231b71c39e18a4ce927fbca",
+                                                                         "traderId":  "6c6f74757374726164657200",
+                                                                         "type":  "AssortmentUnlock",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_Pokloneniye2 startedMessageText",
+                                     "successMessageText":  "Lotus_Pokloneniye2 successMessageText",
+                                     "templateId":  "efb15ef749d8d8f0bc6cf476",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "PickUp"
+                                 },
+    "9cc6b407772147436b084676":  {
+                                     "QuestName":  "Pokloneniye - part 3",
+                                     "_id":  "9cc6b407772147436b084676",
+                                     "canShowNotificationsInGame":  true,
+                                     "conditions":  {
+                                                        "Fail":  [
+
+                                                                 ],
+                                                        "AvailableForFinish":  [
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "a87e5efdd2d925a431f31daf",
+                                                                                       "index":  0,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5780cf7f2459777de4559322"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "ec2bd370ff774506736cfa32",
+                                                                                       "index":  1,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5d80c60f86f77440373c4ece"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "e9960c7c1fe109ebbd1f66e9",
+                                                                                       "index":  0,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5ede7a8229445733cb4c18e2"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "02c494b60ac1a2db899f0326",
+                                                                                       "index":  3,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "5d80c62a86f7744036212b3f"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "d6a7cda87ad76ea704395fc1",
+                                                                                       "index":  4,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "62987dfc402c7f69bf010923"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "b5b7162b8233b9b16c0e27ee",
+                                                                                       "index":  5,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "63a3a93f8a56922e82001f5d"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "countInRaid":  false,
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "7f157d825066ef08847ee719",
+                                                                                       "index":  6,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "64ccc25f95763a1ae376e447"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   },
+                                                                                   {
+                                                                                       "conditionType":  "HandoverItem",
+                                                                                       "dogtagLevel":  0,
+                                                                                       "dynamicLocale":  false,
+                                                                                       "id":  "36c789e77ab229358330f1b8",
+                                                                                       "index":  7,
+                                                                                       "isEncoded":  false,
+                                                                                       "maxDurability":  100,
+                                                                                       "minDurability":  0,
+                                                                                       "onlyFoundInRaid":  false,
+                                                                                       "parentId":  "",
+                                                                                       "target":  [
+                                                                                                      "64d4b23dc1b37504b41ac2b6"
+                                                                                                  ],
+                                                                                       "value":  "1",
+                                                                                       "visibilityConditions":  [
+
+                                                                                                                ]
+                                                                                   }
+                                                                               ],
+                                                        "AvailableForStart":  [
+                                                                                  {
+                                                                                      "conditionType":  "Quest",
+                                                                                      "availableAfter":  0,
+                                                                                      "dispersion":  0,
+                                                                                      "dynamicLocale":  false,
+                                                                                      "id":  "5cf68206c037c7aca2b32e27",
+                                                                                      "index":  0,
+                                                                                      "parentId":  "",
+                                                                                      "status":  [
+                                                                                                     4
+                                                                                                 ],
+                                                                                      "target":  "efb15ef749d8d8f0bc6cf476",
+                                                                                      "visibilityConditions":  [
+
+                                                                                                               ]
+                                                                                  }
+                                                                              ]
+                                                    },
+                                     "description":  "Lotus_Pokloneniye3 description",
+                                     "failMessageText":  "Lotus_Pokloneniye3 failMessageText",
+                                     "image":  "/files/quest/icon/lotus_pokloneniye3.png",
+                                     "instantComplete":  false,
+                                     "isKey":  false,
+                                     "location":  "any",
+                                     "name":  "Lotus_Pokloneniye3 name",
+                                     "questStatus":  {
+
+                                                     },
+                                     "restartable":  false,
+                                     "rewards":  {
+                                                     "Fail":  [
+
+                                                              ],
+                                                     "Started":  [
+
+                                                                 ],
+                                                     "Success":  [
+                                                                     {
+                                                                         "id":  "038e49484448898f1486c78f",
+                                                                         "index":  0,
+                                                                         "type":  "Experience",
+                                                                         "value":  "35692",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "806c03996276788ad32b017b",
+                                                                         "index":  1,
+                                                                         "target":  "6c6f74757374726164657200",
+                                                                         "type":  "TraderStanding",
+                                                                         "value":  "0.05",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  true,
+                                                                         "id":  "9700681697234b37aac14fce",
+                                                                         "index":  2,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "cc93cb84a429dc9cfd91fd62",
+                                                                                           "_tpl":  "5449016a4bdc2d6f028b456f",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  98203
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "cc93cb84a429dc9cfd91fd62",
+                                                                         "type":  "Item",
+                                                                         "value":  "98203",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "378ef36f337db1a771d8a7f8",
+                                                                         "index":  3,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "935bf3bf1adcb17e80ee38f4",
+                                                                                           "_tpl":  "5d1b2ffd86f77425243e8d17",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  3
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "935bf3bf1adcb17e80ee38f4",
+                                                                         "type":  "Item",
+                                                                         "value":  "3",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "aecb5c53a55fd2b1ff883184",
+                                                                         "index":  4,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "354ab4dd0624e680cf8b94b9",
+                                                                                           "_tpl":  "5447a9cd4bdc2dbd208b4567",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "640575d827b9ae5a05701d86",
+                                                                                           "_tpl":  "6113cce3d92c473c770200c7",
+                                                                                           "parentId":  "354ab4dd0624e680cf8b94b9",
+                                                                                           "slotId":  "mod_pistol_grip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "d15c3fac6913e65829209845",
+                                                                                           "_tpl":  "5c6d46132e221601da357d56",
+                                                                                           "parentId":  "354ab4dd0624e680cf8b94b9",
+                                                                                           "slotId":  "mod_magazine"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "8090c4206848a9aeb13fdfc3",
+                                                                                           "_tpl":  "55d355e64bdc2d962f8b4569",
+                                                                                           "parentId":  "354ab4dd0624e680cf8b94b9",
+                                                                                           "slotId":  "mod_reciever"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "1b8d348b07ae1186d8f25254",
+                                                                                           "_tpl":  "5649be884bdc2d79388b4577",
+                                                                                           "parentId":  "354ab4dd0624e680cf8b94b9",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "d49fd42526e1fb4df9fd8a62",
+                                                                                           "_tpl":  "5d44334ba4b9362b346d1948",
+                                                                                           "parentId":  "354ab4dd0624e680cf8b94b9",
+                                                                                           "slotId":  "mod_charge"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "137ba9adc3ea6e5a48ef7df1",
+                                                                                           "_tpl":  "55d35ee94bdc2d61338b4568",
+                                                                                           "parentId":  "8090c4206848a9aeb13fdfc3",
+                                                                                           "slotId":  "mod_barrel"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f5fe033318d0b6f84a11e2a4",
+                                                                                           "_tpl":  "5c78f2612e221600114c9f0d",
+                                                                                           "parentId":  "8090c4206848a9aeb13fdfc3",
+                                                                                           "slotId":  "mod_handguard"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "72229ee03e6117a334f1968b",
+                                                                                           "_tpl":  "5fb6564947ce63734e3fa1da",
+                                                                                           "parentId":  "8090c4206848a9aeb13fdfc3",
+                                                                                           "slotId":  "mod_sight_rear",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "40dd540aea8c61df76a7b689",
+                                                                                           "_tpl":  "602e620f9b513876d4338d9a",
+                                                                                           "parentId":  "1b8d348b07ae1186d8f25254",
+                                                                                           "slotId":  "mod_stock_000"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "07bdec0c1a2d3234311d25d9",
+                                                                                           "_tpl":  "56ea8180d2720bf2698b456a",
+                                                                                           "parentId":  "137ba9adc3ea6e5a48ef7df1",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "2a4ed77e434cd2cf63516bed",
+                                                                                           "_tpl":  "56eabcd4d2720b66698b4574",
+                                                                                           "parentId":  "137ba9adc3ea6e5a48ef7df1",
+                                                                                           "slotId":  "mod_gas_block"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "bf261ef520f7250665214415",
+                                                                                           "_tpl":  "5fb6567747ce63734e3fa1dc",
+                                                                                           "parentId":  "f5fe033318d0b6f84a11e2a4",
+                                                                                           "slotId":  "mod_sight_front",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "92f19ea0336dd8b413831c17",
+                                                                                           "_tpl":  "5c78f2882e22165df16b832e",
+                                                                                           "parentId":  "f5fe033318d0b6f84a11e2a4",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "354ab4dd0624e680cf8b94b9",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "findInRaid":  false,
+                                                                         "id":  "b4890b2bd45238c3a8a44927",
+                                                                         "index":  5,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "9cc62ae52cf33e83b4c6cf11",
+                                                                                           "_tpl":  "6183afd850224f204c1da514",
+                                                                                           "upd":  {
+                                                                                                       "StackObjectsCount":  1
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "c61cda4070bd19ede104cb39",
+                                                                                           "_tpl":  "57c55efc2459772d2c6271e7",
+                                                                                           "parentId":  "9cc62ae52cf33e83b4c6cf11",
+                                                                                           "slotId":  "mod_pistol_grip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "c17e5b284a0bf1c397fb46a8",
+                                                                                           "_tpl":  "618168dc8004cc50514c34fc",
+                                                                                           "parentId":  "9cc62ae52cf33e83b4c6cf11",
+                                                                                           "slotId":  "mod_magazine"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "09067bb2c3325cee279171df",
+                                                                                           "_tpl":  "6165aeedfaa1272e431521e3",
+                                                                                           "parentId":  "9cc62ae52cf33e83b4c6cf11",
+                                                                                           "slotId":  "mod_reciever"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "a0f4ae5136360c7bc31a0668",
+                                                                                           "_tpl":  "61816734d8e3106d9806c1f3",
+                                                                                           "parentId":  "9cc62ae52cf33e83b4c6cf11",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "2794135462d7f599be6f0172",
+                                                                                           "_tpl":  "6181688c6c780c1e710c9b04",
+                                                                                           "parentId":  "9cc62ae52cf33e83b4c6cf11",
+                                                                                           "slotId":  "mod_charge"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "d33837c13583a4824bfd12a2",
+                                                                                           "_tpl":  "558022b54bdc2dac148b458d",
+                                                                                           "parentId":  "09067bb2c3325cee279171df",
+                                                                                           "slotId":  "mod_scope",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "948b6b9b53aea09363b8b74e",
+                                                                                           "_tpl":  "6183b0711cb55961fa0fdcad",
+                                                                                           "parentId":  "09067bb2c3325cee279171df",
+                                                                                           "slotId":  "mod_barrel"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "fa4eaca05e04bdf45b3aa9dc",
+                                                                                           "_tpl":  "5bc09a18d4351e003562b68e",
+                                                                                           "parentId":  "09067bb2c3325cee279171df",
+                                                                                           "slotId":  "mod_sight_rear",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "f8361b2134a418eaa75338c7",
+                                                                                           "_tpl":  "5bc09a30d4351e00367fb7c8",
+                                                                                           "parentId":  "09067bb2c3325cee279171df",
+                                                                                           "slotId":  "mod_sight_front",
+                                                                                           "upd":  {
+                                                                                                       "Sight":  {
+                                                                                                                     "ScopesCurrentCalibPointIndexes":  [
+                                                                                                                                                            0
+                                                                                                                                                        ],
+                                                                                                                     "ScopesSelectedModes":  [
+                                                                                                                                                 0
+                                                                                                                                             ],
+                                                                                                                     "SelectedScope":  0
+                                                                                                                 }
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "b703adffbc326e165a72b7b2",
+                                                                                           "_tpl":  "61816df1d3a39d50044c139e",
+                                                                                           "parentId":  "09067bb2c3325cee279171df",
+                                                                                           "slotId":  "mod_mount_000"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "c6d505bfb410f762a8b0ecd8",
+                                                                                           "_tpl":  "61816dfa6ef05c2ce828f1ad",
+                                                                                           "parentId":  "09067bb2c3325cee279171df",
+                                                                                           "slotId":  "mod_mount_001"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "636528c203ea6da6212d58d0",
+                                                                                           "_tpl":  "618167528004cc50514c34f9",
+                                                                                           "parentId":  "a0f4ae5136360c7bc31a0668",
+                                                                                           "slotId":  "mod_stock_001"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "6f9accfa725eacccd1d66e43",
+                                                                                           "_tpl":  "61825d24d3a39d50044c13af",
+                                                                                           "parentId":  "a0f4ae5136360c7bc31a0668",
+                                                                                           "slotId":  "mod_stock_002"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "b86afca8d9953309fcc4c52b",
+                                                                                           "_tpl":  "5dfa3cd1b33c0951220c079b",
+                                                                                           "parentId":  "948b6b9b53aea09363b8b74e",
+                                                                                           "slotId":  "mod_muzzle"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "03d7119339538adaafa7bb87",
+                                                                                           "_tpl":  "59f8a37386f7747af3328f06",
+                                                                                           "parentId":  "b703adffbc326e165a72b7b2",
+                                                                                           "slotId":  "mod_foregrip"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "ce0882db3f86357f692cda37",
+                                                                                           "_tpl":  "61965d9058ef8c428c287e0d",
+                                                                                           "parentId":  "b703adffbc326e165a72b7b2",
+                                                                                           "slotId":  "mod_mount"
+                                                                                       },
+                                                                                       {
+                                                                                           "_id":  "5b23b2ed01134c57f2627134",
+                                                                                           "_tpl":  "618167616ef05c2ce828f1a8",
+                                                                                           "parentId":  "636528c203ea6da6212d58d0",
+                                                                                           "slotId":  "mod_stock"
+                                                                                       }
+                                                                                   ],
+                                                                         "target":  "9cc62ae52cf33e83b4c6cf11",
+                                                                         "type":  "Item",
+                                                                         "value":  "1",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     },
+                                                                     {
+                                                                         "id":  "df429e6a68f9008350890d62",
+                                                                         "index":  6,
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "_id":  "fa9c95c9843c5f6d024f0a4c",
+                                                                                           "_tpl":  "5df8a42886f77412640e2e75"
+                                                                                       }
+                                                                                   ],
+                                                                         "loyaltyLevel":  4,
+                                                                         "target":  "fa9c95c9843c5f6d024f0a4c",
+                                                                         "traderId":  "6c6f74757374726164657200",
+                                                                         "type":  "AssortmentUnlock",
+                                                                         "availableInGameEditions":  [
+
+                                                                                                     ],
+                                                                         "gameMode":  [
+                                                                                          "regular",
+                                                                                          "pve"
+                                                                                      ],
+                                                                         "isHidden":  false,
+                                                                         "unknown":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                     "secretQuest":  false,
+                                     "side":  "Pmc",
+                                     "startedMessageText":  "Lotus_Pokloneniye3 startedMessageText",
+                                     "successMessageText":  "Lotus_Pokloneniye3 successMessageText",
+                                     "templateId":  "9cc6b407772147436b084676",
+                                     "traderId":  "6c6f74757374726164657200",
+                                     "type":  "PickUp"
+                                 }
+}
