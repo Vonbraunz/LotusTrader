@@ -36,8 +36,8 @@ public class LotusTraderMod(
         var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/base.json");
 
         // 2. Register trader portrait
-        var traderImagePath = Path.Combine(pathToMod, "data/lotus.jpg");
-        imageRouter.AddRoute(traderBase.Avatar.Replace(".jpg", ""), traderImagePath);
+        var traderImagePath = Path.Combine(pathToMod, "data/lotus.png");
+        imageRouter.AddRoute(traderBase.Avatar.Replace(".png", ""), traderImagePath);
 
         // 3. Set stock refresh time (1-2 hours)
         lotusTraderHelper.SetTraderUpdateTime(_traderConfig, traderBase,
@@ -61,9 +61,13 @@ public class LotusTraderMod(
         var assort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/assort.json");
         lotusTraderHelper.ApplyAssort(traderBase.Id, assort);
 
-        // 8. WTT CommonLib: inject quests (QuestAssort/assort.json is handled by CustomQuestService)
+        // 8. WTT CommonLib: register custom items and inject quests
         var assembly = Assembly.GetExecutingAssembly();
+        await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
+
+        // 9. Blacklist Lotus keycard from flea market
+        _ragfairConfig.Dynamic.Blacklist.Custom.Add("6747b519aa6cb78b189e6081");
 
         logger.Success("[LotusTrader] Lotus has arrived in Tarkov.");
     }

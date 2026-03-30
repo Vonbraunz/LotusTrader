@@ -9,7 +9,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name       { get; init; } = "LotusTrader";
     public override string Author     { get; init; } = "Lunnayaluna";
     public override List<string>? Contributors { get; init; }
-    public override SemanticVersioning.Version Version { get; init; } = new("2.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("2.1.0");
     public override Range SptVersion  { get; init; } = new("~4.0.13");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()

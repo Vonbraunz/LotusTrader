@@ -1,0 +1,56 @@
+{
+  "6747b519aa6cb78b189e6081": {
+    "itemTplToClone": "5c94bbff86f7747ee735c08f",
+
+    "parentId": "5c164d2286f774194c5e69fa",
+
+    "handbookParentId": "5c518ed586f774119a772aee",
+
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "assets/content/items/spec/item_keycard_lab/item_keycard_lab_white_sanitar.bundle",
+        "rcid": ""
+      },
+      "MaximumNumberOfUsage": 0
+    },
+
+    "locales": {
+      "en": {
+        "name": "Lotus' Modified TerraGroup Labs Access Keycard",
+        "shortName": "Lotus",
+        "description": "A modified version of a single-use United Security-issued TerraGroup Labs access keycard, essentially providing unlimited access to the TerraGroup laboratory. Painted in Lotus' signature shade of blue to distinguish it from ordinary access keycards."
+      }
+    },
+
+    "fleaPriceRoubles": 3450000,
+    "handbookPriceRoubles": 3450000,
+
+    "addtoSecureFilters": true,
+
+    "addtoTraders": true,
+    "traders": {
+      "6747208ef022cbbfc65c41bf": {
+        "66efea122aae9919541dc4d0": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": false,
+            "stackObjectsCount": 5,
+            "buyRestrictionMax": 1
+          },
+          "barters": [
+            {
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "count": 20
+            },
+            {
+              "_tpl": "590c621186f774138d11ea29",
+              "count": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

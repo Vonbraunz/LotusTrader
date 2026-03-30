@@ -24,6 +24,8 @@ SPT/
     └── mods/
         └── LotusTrader/
             ├── LotusTrader.dll
+            ├── bundles.json
+            ├── bundles/
             ├── data/
             └── db/
 ```
@@ -37,62 +39,59 @@ SPT/
 | | |
 |-|-|
 | **Name** | Lotus |
-| **Location** | Temporary camp at the outskirts of the city |
+| **Location** | Hidden camp at the outskirts of the city |
 | **Currency** | Roubles |
 | **PvE support** | Yes |
 
 ### Loyalty Levels
 
-| Level | Min Standing | Min Sales |
-|-------|-------------|-----------|
-| LL1 | 0.00 | ₽0 |
-| LL2 | 0.25 | ₽3,659,300 |
-| LL3 | 0.45 | ₽6,545,200 |
-| LL4 | 0.75 | ₽11,987,500 |
+| Level | Min Level | Min Standing | Min Sales |
+|-------|-----------|-------------|-----------|
+| LL1 | 0 | 0.00 | ₽0 |
+| LL2 | 22 | 0.50 | ₽1,150,000 |
+| LL3 | 33 | 1.00 | ₽5,250,000 |
+| LL4 | 44 | 1.50 | ₽7,500,000 |
 
 ### Assort
 
-- **209 items** available across all loyalty levels (63 / 51 / 50 / 45)
-- **71 additional items** unlocked through quests
+- **917 items** across all loyalty levels
+- Additional items unlocked through quests
+- **1 custom item** — Lotus' Modified TerraGroup Labs Access Keycard (LL4 barter, flea-blacklisted)
 
 ---
 
 ## Quests
 
-**53 quests** across 6 quest lines. All quests support both regular and PvE game modes.
+**343 quests** across multiple quest lines. All quests support both regular and PvE game modes.
 
-| Quest line | Quests | Type |
-|------------|--------|------|
-| Introduction | 1 | Elimination |
-| Main (Lotus.json) | 24 | Mixed — eliminations, item handovers, skill challenges |
-| Ammunition basics | 13 | Item handover (one per calibre) |
-| Pokloneniye | 3 | Mixed |
-| The Tarkov Cleaner | 7 | Elimination (one per map + finale) |
-| Trained Warrior | 5 | Skill |
-
-### Quest lines at a glance
+### Quest lines
 
 **New Contacts** — Prove yourself to Lotus by clearing scavs across Customs, Shoreline, Factory, and Interchange.
 
-**Main quest line** — 24 quests covering weapon collection, PMC/scav/rogue hunting, item procurement, skill challenges, and more. Unlocks the bulk of Lotus's inventory as you progress.
+**Main quest line** — Weapon collection, PMC/scav/rogue hunting, item procurement, skill challenges, and more. Unlocks the bulk of Lotus's inventory as you progress.
 
 **Ammunition Basics** — Hand over samples of high-tier ammunition for each major calibre in exchange for standing and stock unlocks. Covers .45 ACP, 12/70, 4.6x30, 9x39mm, .300 Blackout, 5.7x28mm, 5.45x39, 5.56x45, 7.62x39, 7.62x54r, 7.62x51, 12.7x55, and .338 Lapua.
 
 **Pokloneniye** — A three-part quest line.
 
-**The Tarkov Cleaner** — Clear each map of targets: Factory, Reserve, Shoreline, Lighthouse, Customs, Labs, and a finale tying them together.
+**The Tarkov Cleaner** — Clear each map of targets: Factory, Reserve, Shoreline, Lighthouse, Customs, Labs, Woods, and a finale.
 
-**Trained Warrior** — Five quests tied to in-game skill progression: combat skills, first aid, scavenger, firearms expert, and sneaky bastard.
+**Trained Warrior** — Quests tied to in-game skill progression: combat skills, first aid, scavenger, firearms expert, and sneaky bastard.
 
 ---
 
 ## Version History
 
+### 2.1.0
+- Upgraded to unreleased dev build content (343 quests, 917 assort items, 253 quest images)
+- Added custom item: Lotus' Modified TerraGroup Labs Access Keycard
+- Updated loyalty level thresholds
+- Updated trader avatar
+
 ### 2.0.0
 - Full port to SPT 4.0.13 (C# server mod)
 - Replaced VCQL with WTT CommonLib for quest injection
 - Added PvE support
-- All 53 quests and 209 assort items carried over from 1.x
 
 ### 1.x
 - Original TypeScript mod for SPT 3.x using Virtual's Custom Quest Loader

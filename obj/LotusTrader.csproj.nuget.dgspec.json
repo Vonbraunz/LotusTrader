@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\LotusTrader\\LotusTrader.csproj": {}
+    "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\SPT-LotusTrader\\LotusTrader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\LotusTrader\\LotusTrader.csproj": {
+    "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\SPT-LotusTrader\\LotusTrader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\LotusTrader\\LotusTrader.csproj",
+        "projectUniqueName": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\SPT-LotusTrader\\LotusTrader.csproj",
         "projectName": "LotusTrader",
-        "projectPath": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\LotusTrader\\LotusTrader.csproj",
+        "projectPath": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\SPT-LotusTrader\\LotusTrader.csproj",
         "packagesPath": "C:\\Users\\Odin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\LotusTrader\\obj\\",
+        "outputPath": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\SPT-LotusTrader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

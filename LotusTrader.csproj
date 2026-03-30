@@ -18,4 +18,51 @@
   <ItemGroup>
     <EmbeddedResource Include="db\**\*" />
   </ItemGroup>
+
+  <!-- Post-build: produce a clean deployment zip -->
+  <Target Name="PackageRelease" AfterTargets="Build">
+    <PropertyGroup>
+      <ZipStaging>$(MSBuildProjectDirectory)\bin\$(Configuration)\staging\LotusTrader</ZipStaging>
+      <ZipOutput>$(MSBuildProjectDirectory)\bin\$(Configuration)\LotusTrader.zip</ZipOutput>
+    </PropertyGroup>
+
+    <!-- Clean staging -->
+    <RemoveDir Directories="$(ZipStaging)" />
+    <MakeDir Directories="$(ZipStaging)" />
+
+    <!-- Copy only the files end users need -->
+    <Copy SourceFiles="$(OutputPath)LotusTrader.dll"
+          DestinationFolder="$(ZipStaging)" />
+
+    <ItemGroup>
+      <DataFiles    Include="$(MSBuildProjectDirectory)\data\**\*" />
+      <DbFiles      Include="$(MSBuildProjectDirectory)\db\**\*" />
+      <BundleFiles  Include="$(MSBuildProjectDirectory)\bundles\**\*" />
+    </ItemGroup>
+
+    <Copy SourceFiles="@(DataFiles)"
+          DestinationFiles="@(DataFiles->'$(ZipStaging)\data\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+    <Copy SourceFiles="@(DbFiles)"
+          DestinationFiles="@(DbFiles->'$(ZipStaging)\db\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+    <Copy SourceFiles="@(BundleFiles)"
+          DestinationFiles="@(BundleFiles->'$(ZipStaging)\bundles\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\bundles.json"
+          DestinationFolder="$(ZipStaging)" />
+
+    <!-- Delete previous zip if present -->
+    <Delete Files="$(ZipOutput)" />
+
+    <!-- Zip the staging folder -->
+    <ZipDirectory SourceDirectory="$(MSBuildProjectDirectory)\bin\$(Configuration)\staging"
+                  DestinationFile="$(ZipOutput)" />
+
+    <!-- Clean up staging -->
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\bin\$(Configuration)\staging" />
+
+    <Message Text="[LotusTrader] Release zip: $(ZipOutput)" Importance="high" />
+  </Target>
+
 </Project>

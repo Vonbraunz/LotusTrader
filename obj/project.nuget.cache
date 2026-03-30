@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pL6z6qMKCJs=",
+  "dgSpecHash": "CH3b5DXLvz8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\LotusTrader\\LotusTrader.csproj",
+  "projectFilePath": "C:\\Users\\Odin\\source\\repos\\Vonbraunz\\SPT-LotusTrader\\LotusTrader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Odin\\.nuget\\packages\\fastcloner\\3.3.16\\fastcloner.3.3.16.nupkg.sha512",
     "C:\\Users\\Odin\\.nuget\\packages\\jetbrains.annotations\\2025.2.2\\jetbrains.annotations.2025.2.2.nupkg.sha512",

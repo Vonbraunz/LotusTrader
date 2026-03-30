@@ -23,11 +23,8 @@ C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\obj\Release\LotusTrader.dll
 C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\obj\Release\refint\LotusTrader.dll
 C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\obj\Release\LotusTrader.pdb
 C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\obj\Release\ref\LotusTrader.dll
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Locales\en.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\QuestAssort\assort.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Quests\Lotus.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Quests\Lotus_ammunition.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Quests\Lotus_intro.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Quests\Lotus_pokloneniye.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Quests\Lotus_tarkovcleaner.json
-C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6c6f74757374726164657200\Quests\Lotus_trainedwarrior.json
+C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6747208ef022cbbfc65c41bf\Locales\en.json
+C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6747208ef022cbbfc65c41bf\QuestAssort\assort.json
+C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomQuests\6747208ef022cbbfc65c41bf\Quests\Lotus_quests.json
+C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\bundles.json
+C:\Users\Odin\source\repos\Vonbraunz\LotusTrader\bin\Release\LotusTrader\db\CustomItems\LotusKeycard.json
